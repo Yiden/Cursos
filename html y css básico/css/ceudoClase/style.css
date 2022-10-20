@@ -1,0 +1,31 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #19d8d8;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/* cuando ponemos a somos especifos para que se modofique solo la etiqueta a */
+.main-nav__item a { 
+    color: white;
+    padding: 5px; /* borde interno */
+    border-radius: 2px; 
+    text-decoration: none; /* quitar el delineado de los links */
+}
+
+/* hover es la accion de pasar el mause encima */
+.main-nav__item a:hover { 
+    color: blue;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+.main-nav__item a::after {
+    content:" | ";
+}

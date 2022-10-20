@@ -1,0 +1,51 @@
+.contenedor {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    place-content: center;
+    gap: 20px;
+    padding: 16px;
+    grid-template-areas: 
+    "item-1 item-2 item-2"
+    "item-3 item-3 item-4"
+    "item-5 item-6 item-7";
+}
+
+.item {
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000725;
+    border-radius: 10px;
+}
+
+.item-1 {
+    background-color: #5ccb5f;
+    grid-area: item-1;
+}
+
+.item-2{
+    background-color: #009929;
+    grid-area: item-2;
+}
+
+.item-3 {
+    background-color: #006414;
+    grid-area: item-3;
+}
+.item-4 {
+    background-color: #5ccb5f;
+    grid-area: item-4;
+}
+.item-5 {
+    background-color: #00f03c;
+    grid-area: item-5;
+}
+.item-6 {
+    background-color: #009929;
+    grid-area: item-6;
+}
+.item-7 {
+    background-color: #006414;
+    grid-area: item-7;
+}
